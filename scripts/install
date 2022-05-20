@@ -152,7 +152,7 @@ ynh_script_progression --message="Adding an admin..." --weight=3
 
 #Generate the run-time configuration
 php$phpversion $final_path/scripts/config_gen.php
-# create an account
+# create an admin account
 php$phpversion $final_path/scripts/create_account.php $admin $password
 
 #=================================================
