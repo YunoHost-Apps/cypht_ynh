@@ -138,12 +138,26 @@ chown -R $app:www-data "$datadir"
 #=================================================
 # ADD A CONFIGURATION
 #=================================================
-ynh_script_progression --message="Adding a configuration file..." --weight=1
+ynh_script_progression --message="Adding a configuration ini file..." --weight=1
 
 ynh_add_config --template="../conf/hm3.sample.ini" --destination="$final_path/hm3.ini"
 
 chmod 400 "$final_path/hm3.ini"
-chown $app:$app "$final_path/hm3.ini"
+chown $app: "$final_path/hm3.ini"
+
+#=================================================
+# ADD A CONFIGURATION
+#=================================================
+ynh_script_progression --message="Adding extra configuration ini file..." --weight=1
+
+ynh_add_config --template="../conf/github.ini" --destination="$datadir/app_data/github.ini"
+ynh_add_config --template="../conf/ldap.ini" --destination="$datadir/app_data/ldap.ini"
+ynh_add_config --template="../conf/oauth2.ini" --destination="$datadir/app_data/oauth2.ini"
+ynh_add_config --template="../conf/themes.ini" --destination="$datadir/app_data/themes.ini"
+ynh_add_config --template="../conf/wordpress.ini" --destination="$datadir/app_data/wordpress.ini"
+
+chmod 400 "$datadir/app_data"
+chown -R $app: "$datadir/app_data"
 
 #=================================================
 # ADD AN ADMIN USER
