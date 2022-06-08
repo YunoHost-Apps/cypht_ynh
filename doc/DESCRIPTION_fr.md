@@ -1,0 +1,1 @@
+Cypht est un client de messagerie web. Vous pouvez accéder à vos comptes de messagerie qui supportent IMAP, POP3 ou SMTP - comme la plupart.
