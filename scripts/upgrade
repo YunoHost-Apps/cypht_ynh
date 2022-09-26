@@ -26,6 +26,8 @@ db_user=$db_name
 db_pwd=$(ynh_app_setting_get --app=$app --key=mysqlpwd)
 datadir=$(ynh_app_setting_get --app=$app --key=datadir)
 
+timezone=$(cat /etc/timezone)
+
 #=================================================
 # CHECK VERSION
 #=================================================
