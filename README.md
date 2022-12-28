@@ -22,7 +22,6 @@ Cypht is an application built entirely of plugins, or as we call them, module se
 
 **Shipped version:** 1.3.0~ynh3
 
-
 ## Screenshots
 
 ![Screenshot of Cypht](./doc/screenshots/cypht_shot1.png)
