@@ -13,9 +13,6 @@ YNH_PHP_VERSION="8.0"
 
 #REMOVEME? php_dependencies="php${YNH_PHP_VERSION}-mbstring php${YNH_PHP_VERSION}-gnupg php${YNH_PHP_VERSION}-memcached php${YNH_PHP_VERSION}-mysql php${YNH_PHP_VERSION}-gd php${YNH_PHP_VERSION}-curl php${YNH_PHP_VERSION}-fileinfo"
 
-# dependencies used by the app (must be on a single line)
-#REMOVEME? pkg_dependencies="$php_dependencies"
-
 #=================================================
 # PERSONAL HELPERS
 #=================================================
