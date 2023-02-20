@@ -5,29 +5,30 @@ It shall NOT be edited by hand.
 
 # Cypht pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/cypht.svg)](https://dash.yunohost.org/appci/app/cypht) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/cypht.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/cypht.maintain.svg)  
+[![Niveau d’intégration](https://dash.yunohost.org/integration/cypht.svg)](https://dash.yunohost.org/appci/app/cypht) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/cypht.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/cypht.maintain.svg)
+
 [![Installer Cypht avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=cypht)
 
 *[Read this readme in english.](./README.md)*
 
-> *Ce package vous permet d'installer Cypht rapidement et simplement sur un serveur YunoHost.
-Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
+> *Ce package vous permet d’installer Cypht rapidement et simplement sur un serveur YunoHost.
+Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l’installer et en profiter.*
 
-## Vue d'ensemble
+## Vue d’ensemble
 
 Cypht est un client de messagerie web. Vous pouvez accéder à vos comptes de messagerie qui supportent IMAP, POP3 ou SMTP - comme la plupart.
 
-**Version incluse :** 1.3.0~ynh3
+**Version incluse :** 1.3.0~ynh4
 
-## Captures d'écran
+## Captures d’écran
 
-![Capture d'écran de Cypht](./doc/screenshots/cypht_shot1.png)
+![Capture d’écran de Cypht](./doc/screenshots/cypht_shot1.png)
 
 ## Documentations et ressources
 
-* Site officiel de l'app : <https://cypht.org>
-* Documentation officielle de l'admin : <https://cypht.org/install.html>
-* Dépôt de code officiel de l'app : <https://github.com/jasonmunro/cypht>
+* Site officiel de l’app : <https://cypht.org>
+* Documentation officielle de l’admin : <https://cypht.org/install.html>
+* Dépôt de code officiel de l’app : <https://github.com/jasonmunro/cypht>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_cypht>
 * Signaler un bug : <https://github.com/YunoHost-Apps/cypht_ynh/issues>
 
@@ -43,4 +44,4 @@ ou
 sudo yunohost app upgrade cypht -u https://github.com/YunoHost-Apps/cypht_ynh/tree/testing --debug
 ```
 
-**Plus d'infos sur le packaging d'applications :** <https://yunohost.org/packaging_apps>
+**Plus d’infos sur le packaging d’applications :** <https://yunohost.org/packaging_apps>

@@ -5,7 +5,8 @@ It shall NOT be edited by hand.
 
 # Cypht for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/cypht.svg)](https://dash.yunohost.org/appci/app/cypht) ![Working status](https://ci-apps.yunohost.org/ci/badges/cypht.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/cypht.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/cypht.svg)](https://dash.yunohost.org/appci/app/cypht) ![Working status](https://ci-apps.yunohost.org/ci/badges/cypht.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/cypht.maintain.svg)
+
 [![Install Cypht with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=cypht)
 
 *[Lire ce readme en français.](./README_fr.md)*
@@ -20,7 +21,7 @@ All your E-mail, from all your accounts, in one place. Cypht is not your father'
 Cypht is an application built entirely of plugins, or as we call them, module sets (which is obviously way cooler sounding than plugins), that are executed by the framework. Modules provide a flexible way to add new features or customize the program without hacking the code.
 
 
-**Shipped version:** 1.3.0~ynh3
+**Shipped version:** 1.3.0~ynh4
 
 ## Screenshots
 
