@@ -53,8 +53,8 @@ ram.runtime = "50M"
 [resources]
 
     [resources.sources.main]
-    url= "https://github.com/jasonmunro/cypht/archive/2e9875c8ccfee750b34958587507f1a9c2ae8b67.zip"
-    sha256 = "17638c5eae1d79763b9496f531f76b4db17524e4f0a41ab1be932d271f8a0007"
+    url= "https://github.com/jasonmunro/cypht/archive/eb3aac3ad3042eaf43a015a325ff59d09aceb52a.zip"
+    sha256 = "388dec7e7714444e2a0ab00b8aad42f42816e434b382e8780fcb614289283ddf"
 
     [resources.system_user]
 
