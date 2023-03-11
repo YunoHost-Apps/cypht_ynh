@@ -19,10 +19,10 @@ code = "https://github.com/jasonmunro/cypht"
 yunohost = ">= 11.1.14"
 architectures = "all"
 multi_instance = true
-ldap = false
+ldap = true
 sso = false
 disk = "50M"
-ram.build = "50M"
+ram.build = "200M"
 ram.runtime = "50M"
 
 [install]
