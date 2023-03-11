@@ -58,7 +58,6 @@ then
 	ynh_setup_source --dest_dir="$install_dir" --keep="hm3.ini"
 fi
 
-chmod 750 "$install_dir"
 chmod -R o-rwx "$install_dir"
 chown -R $app:www-data "$install_dir"
 
@@ -78,12 +77,12 @@ ynh_add_nginx_config
 #=================================================
 # UPDATE A CONFIG FILE
 #=================================================
-ynh_script_progression --message="Updating a configuration file..." --weight=1
+#ynh_script_progression --message="Updating a configuration file..." --weight=1
 
-ynh_add_config --template="../conf/hm3.sample.ini" --destination="$install_dir/hm3.ini"
+#ynh_add_config --template="../conf/hm3.sample.ini" --destination="$install_dir/hm3.ini"
 
-chmod 400 "$install_dir/hm3.ini"
-chown $app:$app "$install_dir/hm3.ini"
+#chmod 400 "$install_dir/hm3.ini"
+#chown $app:$app "$install_dir/hm3.ini"
 
 #=================================================
 # END OF SCRIPT

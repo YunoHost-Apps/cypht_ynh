@@ -16,7 +16,7 @@ admindoc = "https://cypht.org/install.html"
 code = "https://github.com/jasonmunro/cypht"
 
 [integration]
-yunohost = ">= 11.1.8"
+yunohost = ">= 11.1.14"
 architectures = "all"
 multi_instance = true
 ldap = false
@@ -51,6 +51,11 @@ ram.runtime = "50M"
     type = "password"
 
 [resources]
+
+    [resources.sources.main]
+    url= "https://github.com/jasonmunro/cypht/archive/2e9875c8ccfee750b34958587507f1a9c2ae8b67.zip"
+    sha256 = "17638c5eae1d79763b9496f531f76b4db17524e4f0a41ab1be932d271f8a0007"
+
     [resources.system_user]
 
     [resources.install_dir]
@@ -61,7 +66,7 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "php8.0-mbstring php8.0-gnupg php8.0-memcached php8.0-mysql php8.0-gd php8.0-curl php8.0-fileinfo"
+    packages = "mariadb-server php8.0-mbstring php8.0-gnupg php8.0-memcached php8.0-mysql php8.0-gd php8.0-curl php8.0-fileinfo"
 
     [resources.database]
     type = "mysql"
