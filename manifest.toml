@@ -2,8 +2,8 @@ packaging_format = 2
 
 id = "cypht"
 name = "Cypht"
-description.en = "Lightweight Open Source webmail written in PHP and JavaScript"
-description.fr = "Webmail Open Source léger écrit en PHP et JavaScript"
+description.en = "Lightweight Open Source webmail"
+description.fr = "Webmail Open Source léger"
 
 version = "1.3.0~ynh4"
 
