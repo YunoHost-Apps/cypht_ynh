@@ -18,7 +18,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 Cypht est un client de messagerie web. Vous pouvez accéder à vos comptes de messagerie qui supportent IMAP, POP3 ou SMTP - comme la plupart.
 
-**Version incluse :** 1.3.2023.04.20~ynh6
+**Version incluse :** 1.3.2023.05.13~ynh6
 
 ## Captures d’écran
 
