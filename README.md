@@ -21,7 +21,7 @@ All your E-mail, from all your accounts, in one place. Cypht is not your father'
 Cypht is an application built entirely of plugins, or as we call them, module sets (which is obviously way cooler sounding than plugins), that are executed by the framework. Modules provide a flexible way to add new features or customize the program without hacking the code.
 
 
-**Shipped version:** 1.3.2023.06.29~ynh6
+**Shipped version:** 1.3.2023.07.01~ynh6
 
 ## Screenshots
 
