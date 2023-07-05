@@ -63,6 +63,7 @@ ram.runtime = "50M"
     [resources.install_dir]
 
     [resources.data_dir]
+    subdirs = ["attachments", "users", "app_data"]
 
     [resources.permissions]
     main.url = "/"
