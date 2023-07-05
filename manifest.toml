@@ -5,7 +5,7 @@ name = "Cypht"
 description.en = "Lightweight Open Source webmail"
 description.fr = "Webmail Open Source léger"
 
-version = "1.3.2023.07.01~ynh6"
+version = "1.3.2023.07.01~ynh7"
 
 maintainers = ["eric_G"]
 
@@ -63,12 +63,13 @@ ram.runtime = "50M"
     [resources.install_dir]
 
     [resources.data_dir]
+    subdirs = ["attachments", "users", "app_data"]
 
     [resources.permissions]
     main.url = "/"
 
     [resources.apt]
-    packages = "mariadb-server php8.0-mbstring php8.0-gnupg php8.0-memcached php8.0-mysql php8.0-gd php8.0-curl php8.0-fileinfo"
+    packages = "mariadb-server php8.2-mbstring php8.2-gnupg php8.2-memcached php8.2-mysql php8.2-gd php8.2-curl php8.2-fileinfo"
 
     [resources.database]
     type = "mysql"
