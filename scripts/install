@@ -62,17 +62,6 @@ ynh_script_progression --message="Installing $app with Composer..." --weight=10
 ynh_install_composer --install_args="--ignore-platform-reqs"
 
 #=================================================
-# CREATE DATA DIRECTORY
-#=================================================
-ynh_script_progression --message="Creating a data directory..." --weight=1
-
-mkdir -p $data_dir/{attachments,users,app_data}
-
-chmod 750 "$data_dir"
-chmod -R o-rwx "$data_dir"
-chown -R $app:www-data "$data_dir"
-
-#=================================================
 # ADD A CONFIGURATION
 #=================================================
 ynh_script_progression --message="Adding a configuration file..." --weight=1
@@ -89,6 +78,7 @@ ynh_script_progression --message="Adding an admin..." --weight=3
 
 #Generate the run-time configuration
 php$phpversion $install_dir/scripts/config_gen.php
+
 # create an admin account
 php$phpversion $install_dir/scripts/create_account.php $admin $password
 
