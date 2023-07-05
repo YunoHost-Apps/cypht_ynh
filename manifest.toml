@@ -16,7 +16,7 @@ admindoc = "https://cypht.org/install.html"
 code = "https://github.com/jasonmunro/cypht"
 
 [integration]
-yunohost = ">= 11.1.16"
+yunohost = ">= 11.1.21"
 architectures = "all"
 multi_instance = true
 ldap = true
@@ -68,7 +68,7 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "mariadb-server php8.0-mbstring php8.0-gnupg php8.0-memcached php8.0-mysql php8.0-gd php8.0-curl php8.0-fileinfo"
+    packages = "mariadb-server php8.2-mbstring php8.2-gnupg php8.2-memcached php8.2-mysql php8.2-gd php8.2-curl php8.2-fileinfo"
 
     [resources.database]
     type = "mysql"
