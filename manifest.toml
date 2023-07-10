@@ -5,7 +5,7 @@ name = "Cypht"
 description.en = "Lightweight Open Source webmail"
 description.fr = "Webmail Open Source léger"
 
-version = "1.3.2023.07.01~ynh7"
+version = "1.3.2023.07.10~ynh7"
 
 maintainers = ["eric_G"]
 
@@ -53,8 +53,8 @@ ram.runtime = "50M"
 [resources]
 
     [resources.sources.main]
-    url= "https://github.com/jasonmunro/cypht/archive/0212c2f35c8cff0c4920bfbecd4754139c3ef6b7.tar.gz"
-    sha256 = "c3f09742154d8d295531a3255dbe03fbc59bfdb5f18e0245e2952dbdb61c3752"
+    url= "https://github.com/jasonmunro/cypht/archive/7c574ed1e7d2e348da1a4f3f1db56319bc893f07.tar.gz"
+    sha256 = "245c213753506424b6d61786b34e302b6d7f0066901c3231c39b464532d851ac"
     autoupdate.strategy = "latest_github_commit"
     autoupdate.force_version = "1.3.%Y.%m.%d"
 
