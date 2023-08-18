@@ -16,7 +16,7 @@ admindoc = "https://cypht.org/install.html"
 code = "https://github.com/jasonmunro/cypht"
 
 [integration]
-yunohost = ">= 11.1.21"
+yunohost = ">= 11.2"
 architectures = "all"
 multi_instance = true
 ldap = true
