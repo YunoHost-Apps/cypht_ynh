@@ -29,7 +29,6 @@ Cypht est un client de messagerie web. Vous pouvez accéder à vos comptes de me
 * Site officiel de l’app : <https://cypht.org>
 * Documentation officielle de l’admin : <https://cypht.org/install.html>
 * Dépôt de code officiel de l’app : <https://github.com/jasonmunro/cypht>
-* Documentation YunoHost pour cette app : <https://yunohost.org/app_cypht>
 * Signaler un bug : <https://github.com/YunoHost-Apps/cypht_ynh/issues>
 
 ## Informations pour les développeurs
