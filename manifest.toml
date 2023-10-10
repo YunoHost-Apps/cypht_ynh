@@ -13,7 +13,7 @@ maintainers = ["eric_G"]
 license = "LGPL-2.1-only"
 website = "https://cypht.org"
 admindoc = "https://cypht.org/install.html"
-code = "https://github.com/jasonmunro/cypht"
+code = "https://github.com/cypht-org/cypht"
 
 [integration]
 yunohost = ">= 11.2"
