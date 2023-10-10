@@ -31,8 +31,7 @@ Cypht is an application built entirely of plugins, or as we call them, module se
 
 * Official app website: <https://cypht.org>
 * Official admin documentation: <https://cypht.org/install.html>
-* Upstream app code repository: <https://github.com/jasonmunro/cypht>
-* YunoHost documentation for this app: <https://yunohost.org/app_cypht>
+* Upstream app code repository: <https://github.com/cypht-org/cypht>
 * Report a bug: <https://github.com/YunoHost-Apps/cypht_ynh/issues>
 
 ## Developer info
