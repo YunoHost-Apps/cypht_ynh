@@ -13,7 +13,7 @@ maintainers = ["eric_G"]
 license = "LGPL-2.1-only"
 website = "https://cypht.org"
 admindoc = "https://cypht.org/install.html"
-code = "https://github.com/jasonmunro/cypht"
+code = "https://github.com/cypht-org/cypht"
 
 [integration]
 yunohost = ">= 11.2"
@@ -53,8 +53,8 @@ ram.runtime = "50M"
 [resources]
 
     [resources.sources.main]
-    url= "https://github.com/cypht-org/cypht/archive/refs/tags/v1.4.0.tar.gz"
-    sha256 = "dc9e21bd8d8ce8b2544b26e74d414ef5e2f30577e7f9675141c9f3ad807847ee"
+    url= "https://github.com/cypht-org/cypht/archive/refs/tags/v1.4.1.tar.gz"
+    sha256 = "a8399921cf586ecb80385b66c08d841548f2f02b63260e08c0ad1f040c663062"
     autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
