@@ -21,7 +21,7 @@ All your E-mail, from all your accounts, in one place. Cypht is not your father'
 Cypht is an application built entirely of plugins, or as we call them, module sets (which is obviously way cooler sounding than plugins), that are executed by the framework. Modules provide a flexible way to add new features or customize the program without hacking the code.
 
 
-**Shipped version:** 1.4.0~ynh1
+**Shipped version:** 1.4.1~ynh1
 
 ## Screenshots
 
@@ -32,6 +32,7 @@ Cypht is an application built entirely of plugins, or as we call them, module se
 * Official app website: <https://cypht.org>
 * Official admin documentation: <https://cypht.org/install.html>
 * Upstream app code repository: <https://github.com/cypht-org/cypht>
+* YunoHost Store: <https://apps.yunohost.org/app/cypht>
 * Report a bug: <https://github.com/YunoHost-Apps/cypht_ynh/issues>
 
 ## Developer info
