@@ -3,7 +3,7 @@
 请勿手动编辑。
 -->
 
-# YunoHost 的 Cypht
+# YunoHost 上的 Cypht
 
 [![集成程度](https://dash.yunohost.org/integration/cypht.svg)](https://dash.yunohost.org/appci/app/cypht) ![工作状态](https://ci-apps.yunohost.org/ci/badges/cypht.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/cypht.maintain.svg)
 
