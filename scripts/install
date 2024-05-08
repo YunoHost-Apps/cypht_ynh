@@ -66,10 +66,15 @@ ynh_install_composer --install_args="--ignore-platform-reqs"
 #=================================================
 ynh_script_progression --message="Adding a configuration file..." --weight=1
 
-ynh_add_config --template="../conf/hm3.sample.ini" --destination="$install_dir/hm3.ini"
+ynh_add_config --template="hm3.sample.ini" --destination="$install_dir/hm3.ini"
 
 chmod 400 "$install_dir/hm3.ini"
 chown $app:$app "$install_dir/hm3.ini"
+
+ynh_add_config --template="ldap.php" --destination="$install_dir/conf/ldap.php"
+
+chmod 400 "$install_dir/conf/ldap.php"
+chown $app:$app "$install_dir/conf/ldap.php"
 
 #=================================================
 # ADD AN ADMIN USER
