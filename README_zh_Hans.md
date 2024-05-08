@@ -3,7 +3,7 @@
 请勿手动编辑。
 -->
 
-# YunoHost 的 Cypht
+# YunoHost 上的 Cypht
 
 [![集成程度](https://dash.yunohost.org/integration/cypht.svg)](https://dash.yunohost.org/appci/app/cypht) ![工作状态](https://ci-apps.yunohost.org/ci/badges/cypht.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/cypht.maintain.svg)
 
@@ -21,7 +21,7 @@ All your E-mail, from all your accounts, in one place. Cypht is not your father'
 Cypht is an application built entirely of plugins, or as we call them, module sets (which is obviously way cooler sounding than plugins), that are executed by the framework. Modules provide a flexible way to add new features or customize the program without hacking the code.
 
 
-**分发版本：** 1.4.2~ynh1
+**分发版本：** 1.4.3~ynh1
 
 ## 截图
 
