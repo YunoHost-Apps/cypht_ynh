@@ -38,6 +38,13 @@ ynh_add_fpm_config
 ynh_add_nginx_config
 
 #=================================================
+# INSTALL CYPHT WITH COMPOSER
+#=================================================
+ynh_script_progression --message="Installing $app with Composer..." --weight=10
+
+ynh_install_composer --install_args="--ignore-platform-reqs"
+
+#=================================================
 # SPECIFIC UPGRADE
 #=================================================
 # UPDATE A CONFIG FILE
