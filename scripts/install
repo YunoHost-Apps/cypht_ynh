@@ -12,14 +12,6 @@ source /usr/share/yunohost/helpers
 timezone=$(cat /etc/timezone)
 
 #=================================================
-# STORE SETTINGS FROM MANIFEST
-#=================================================
-
-ynh_app_setting_set --app=$app --key=fpm_footprint --value=$fpm_footprint
-ynh_app_setting_set --app=$app --key=fpm_free_footprint --value=$fpm_free_footprint
-ynh_app_setting_set --app=$app --key=fpm_usage --value=$fpm_usage
-
-#=================================================
 # CREATE A MYSQL DATABASE
 #=================================================
 
