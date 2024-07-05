@@ -5,7 +5,7 @@
 
 # YunoHost 上的 Cypht
 
-[![集成程度](https://dash.yunohost.org/integration/cypht.svg)](https://dash.yunohost.org/appci/app/cypht) ![工作状态](https://ci-apps.yunohost.org/ci/badges/cypht.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/cypht.maintain.svg)
+[![集成程度](https://dash.yunohost.org/integration/cypht.svg)](https://ci-apps.yunohost.org/ci/apps/cypht/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/cypht.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/cypht.maintain.svg)
 
 [![使用 YunoHost 安装 Cypht](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=cypht)
 
