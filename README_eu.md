@@ -5,7 +5,7 @@ EZ editatu eskuz.
 
 # Cypht YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/cypht.svg)](https://dash.yunohost.org/appci/app/cypht) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/cypht.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/cypht.maintain.svg)
+[![Integrazio maila](https://dash.yunohost.org/integration/cypht.svg)](https://ci-apps.yunohost.org/ci/apps/cypht/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/cypht.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/cypht.maintain.svg)
 
 [![Instalatu Cypht YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=cypht)
 
