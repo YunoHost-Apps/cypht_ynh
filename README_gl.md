@@ -5,7 +5,7 @@ NON debe editarse manualmente.
 
 # Cypht para YunoHost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/cypht.svg)](https://dash.yunohost.org/appci/app/cypht) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/cypht.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/cypht.maintain.svg)
+[![Nivel de integración](https://dash.yunohost.org/integration/cypht.svg)](https://ci-apps.yunohost.org/ci/apps/cypht/) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/cypht.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/cypht.maintain.svg)
 
 [![Instalar Cypht con YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=cypht)
 
