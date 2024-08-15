@@ -5,7 +5,7 @@
 
 # YunoHost 上的 Cypht
 
-[![集成程度](https://dash.yunohost.org/integration/cypht.svg)](https://dash.yunohost.org/appci/app/cypht) ![工作状态](https://ci-apps.yunohost.org/ci/badges/cypht.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/cypht.maintain.svg)
+[![集成程度](https://dash.yunohost.org/integration/cypht.svg)](https://ci-apps.yunohost.org/ci/apps/cypht/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/cypht.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/cypht.maintain.svg)
 
 [![使用 YunoHost 安装 Cypht](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=cypht)
 
@@ -16,12 +16,12 @@
 
 ## 概况
 
-All your E-mail, from all your accounts, in one place. Cypht is not your father's webmail. Unless you are one of my daughters, in which case it is your father's webmail. Cypht is like a news reader, but for E-mail. Cypht does not replace your existing accounts - it combines them into one. And it's also a news reader.
+All your e-mail, from all your accounts, in one place. Cypht is not your father's webmail. Unless you are one of my daughters, in which case it is your father's webmail. Cypht is like a news reader, but for e-mail. Cypht does not replace your existing accounts - it combines them into one. And it's also a news reader.
 
 Cypht is an application built entirely of plugins, or as we call them, module sets (which is obviously way cooler sounding than plugins), that are executed by the framework. Modules provide a flexible way to add new features or customize the program without hacking the code.
 
 
-**分发版本：** 1.4.3~ynh1
+**分发版本：** 2.2.0~ynh1
 
 ## 截图
 
