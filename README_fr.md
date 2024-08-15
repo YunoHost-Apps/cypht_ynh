@@ -18,7 +18,7 @@ Il NE doit PAS être modifié à la main.
 
 Cypht est un client de messagerie web. Vous pouvez accéder à vos comptes de messagerie qui supportent IMAP, POP3 ou SMTP - comme la plupart.
 
-**Version incluse :** 2.1.0~ynh1
+**Version incluse :** 2.2.0~ynh1
 
 ## Captures d’écran
 
