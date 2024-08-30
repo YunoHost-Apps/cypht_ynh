@@ -1,11 +1,5 @@
 #!/bin/bash
 
-#=================================================
-# GENERIC START
-#=================================================
-# IMPORT GENERIC HELPERS
-#=================================================
-
 source _common.sh
 source /usr/share/yunohost/helpers
 
@@ -15,64 +9,66 @@ timezone=$(cat /etc/timezone)
 # CREATE A MYSQL DATABASE
 #=================================================
 
-ynh_mysql_execute_as_root --sql="CREATE TABLE hm_user_session (hm_id varchar(180), data longblob, date timestamp, primary key (hm_id));" --database=$db_name
-ynh_mysql_execute_as_root --sql="CREATE TABLE hm_user (username varchar(250), hash varchar(250), primary key (username));" --database=$db_name
-ynh_mysql_execute_as_root --sql="CREATE TABLE hm_user_settings(username varchar(250), settings longblob, primary key (username));" --database=$db_name
+ynh_mysql_db_shell <<< "CREATE TABLE hm_user_session (hm_id varchar(180), data longblob, date timestamp, primary key (hm_id));"
+
+ynh_mysql_db_shell <<< "CREATE TABLE hm_user (username varchar(250), hash varchar(250), primary key (username));"
+
+ynh_mysql_db_shell <<< "CREATE TABLE hm_user_settings(username varchar(250), settings longblob, primary key (username));"
 
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
 #=================================================
-ynh_script_progression --message="Setting up source files..." --weight=3
+ynh_script_progression "Setting up source files..."
 
 # Download, check integrity, uncompress and patch the source from app.src
 ynh_setup_source --dest_dir="$install_dir"
 
-chmod -R o-rwx "$install_dir"
-chown -R $app:www-data "$install_dir"
-
+#REMOVEME? Assuming the install dir is setup using ynh_setup_source, the proper chmod/chowns are now already applied and it shouldn't be necessary to tweak perms | chmod -R o-rwx "$install_dir"
+#REMOVEME? Assuming the install dir is setup using ynh_setup_source, the proper chmod/chowns are now already applied and it shouldn't be necessary to tweak perms | chown -R $app:www-data "$install_dir"
 #=================================================
 # SYSTEM CONFIGURATION
 #=================================================
-ynh_script_progression --message="Adding system configurations related to $app..." --weight=3
+ynh_script_progression "Adding system configurations related to $app..."
 
 # Create a dedicated PHP-FPM config
-ynh_add_fpm_config
+ynh_config_add_phpfpm
 
 # Create a dedicated NGINX config
-ynh_add_nginx_config
+ynh_config_add_nginx
 
 #=================================================
 # SPECIFIC SETUP
 #=================================================
 # INSTALL CYPHT WITH COMPOSER
 #=================================================
-ynh_script_progression --message="Installing $app with Composer..." --weight=10
+ynh_script_progression "Installing $app with Composer..."
 
-ynh_install_composer --install_args="--ignore-platform-reqs"
+ynh_composer_install
+ynh_composer_exec install --no-dev  --ignore-platform-reqs
 
 #=================================================
 # ADD A CONFIGURATION
 #=================================================
-ynh_script_progression --message="Adding a configuration file..." --weight=1
+ynh_script_progression "Adding $app's configuration..."
 
-ynh_add_config --template=".env" --destination="$install_dir/.env"
+ynh_config_add --template=".env" --destination="$install_dir/.env"
 
-chmod 400 "$install_dir/.env"
-chown $app:$app "$install_dir/.env"
+#REMOVEME? Assuming the file is setup using ynh_config_add, the proper chmod/chowns are now already applied and it shouldn't be necessary to tweak perms | chmod 400 "$install_dir/.env"
+#REMOVEME? Assuming the file is setup using ynh_config_add, the proper chmod/chowns are now already applied and it shouldn't be necessary to tweak perms | chown $app:$app "$install_dir/.env"
 
 #=================================================
 # ADD AN ADMIN USER
 #=================================================
-ynh_script_progression --message="Adding an admin..." --weight=3
+ynh_script_progression "Adding an admin..."
 
 #Generate the run-time configuration
-php$phpversion $install_dir/scripts/config_gen.php
+php$php_version $install_dir/scripts/config_gen.php
 
 # create an admin account
-php$phpversion $install_dir/scripts/create_account.php $admin $password
+php$php_version $install_dir/scripts/create_account.php $admin $password
 
 #=================================================
 # END OF SCRIPT
 #=================================================
 
-ynh_script_progression --message="Installation of $app completed" --last
+ynh_script_progression "Installation of $app completed"
