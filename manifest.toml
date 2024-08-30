@@ -5,7 +5,7 @@ name = "Cypht"
 description.en = "Lightweight Open Source webmail"
 description.fr = "Webmail Open Source léger"
 
-version = "2.2.0~ynh1"
+version = "2.3.0~ynh1"
 
 maintainers = []
 
@@ -16,7 +16,8 @@ admindoc = "https://cypht.org/install.html"
 code = "https://github.com/cypht-org/cypht"
 
 [integration]
-yunohost = ">= 11.2"
+yunohost = ">= 11.2.20"
+helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
 ldap = true
@@ -53,8 +54,8 @@ ram.runtime = "50M"
 [resources]
 
     [resources.sources.main]
-    url= "https://github.com/cypht-org/cypht/archive/refs/tags/v2.2.0.tar.gz"
-    sha256 = "7476aeeb55377e67d19aca40f5bc7758646396fcfca252c4631f81b36c717a8f"
+    url= "https://github.com/cypht-org/cypht/archive/refs/tags/v2.3.0.tar.gz"
+    sha256 = "7adae938a3fd5b7b2cfa473baf7855ea9fc8203ca780b14bf3f91eb7887b19e0"
     autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
