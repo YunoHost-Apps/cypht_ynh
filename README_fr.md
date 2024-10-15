@@ -22,7 +22,7 @@ Cypht est un client de messagerie web. Vous pouvez accéder à vos comptes de me
 
 ## Captures d’écran
 
-![Capture d’écran de Cypht](./doc/screenshots/cypht_shot1.png)
+![Capture d’écran de Cypht](./doc/screenshots/screenshot.png)
 
 ## Documentations et ressources
 

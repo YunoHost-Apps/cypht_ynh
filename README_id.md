@@ -25,7 +25,7 @@ Cypht is an application built entirely of plugins, or as we call them, module se
 
 ## Tangkapan Layar
 
-![Tangkapan Layar pada Cypht](./doc/screenshots/cypht_shot1.png)
+![Tangkapan Layar pada Cypht](./doc/screenshots/screenshot.png)
 
 ## Dokumentasi dan sumber daya
 
