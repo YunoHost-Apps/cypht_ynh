@@ -25,7 +25,7 @@ Cypht is an application built entirely of plugins, or as we call them, module se
 
 ## Schermafdrukken
 
-![Schermafdrukken van Cypht](./doc/screenshots/cypht_shot1.png)
+![Schermafdrukken van Cypht](./doc/screenshots/screenshot.png)
 
 ## Documentatie en bronnen
 

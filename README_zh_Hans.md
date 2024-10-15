@@ -25,7 +25,7 @@ Cypht is an application built entirely of plugins, or as we call them, module se
 
 ## 截图
 
-![Cypht 的截图](./doc/screenshots/cypht_shot1.png)
+![Cypht 的截图](./doc/screenshots/screenshot.png)
 
 ## 文档与资源
 

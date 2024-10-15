@@ -25,7 +25,7 @@ Cypht is an application built entirely of plugins, or as we call them, module se
 
 ## Pantaila-argazkiak
 
-![Cypht(r)en pantaila-argazkia](./doc/screenshots/cypht_shot1.png)
+![Cypht(r)en pantaila-argazkia](./doc/screenshots/screenshot.png)
 
 ## Dokumentazioa eta baliabideak
 
