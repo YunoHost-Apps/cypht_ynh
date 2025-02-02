@@ -5,7 +5,9 @@ Hij mag NIET handmatig aangepast worden.
 
 # Cypht voor Yunohost
 
-[![Integratieniveau](https://dash.yunohost.org/integration/cypht.svg)](https://ci-apps.yunohost.org/ci/apps/cypht/) ![Mate van functioneren](https://ci-apps.yunohost.org/ci/badges/cypht.status.svg) ![Onderhoudsstatus](https://ci-apps.yunohost.org/ci/badges/cypht.maintain.svg)
+[![Integratieniveau](https://apps.yunohost.org/badge/integration/cypht)](https://ci-apps.yunohost.org/ci/apps/cypht/)
+![Mate van functioneren](https://apps.yunohost.org/badge/state/cypht)
+![Onderhoudsstatus](https://apps.yunohost.org/badge/maintained/cypht)
 
 [![Cypht met Yunohost installeren](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=cypht)
 

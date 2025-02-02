@@ -5,7 +5,9 @@ Ini TIDAK boleh diedit dengan tangan.
 
 # Cypht untuk YunoHost
 
-[![Tingkat integrasi](https://dash.yunohost.org/integration/cypht.svg)](https://ci-apps.yunohost.org/ci/apps/cypht/) ![Status kerja](https://ci-apps.yunohost.org/ci/badges/cypht.status.svg) ![Status pemeliharaan](https://ci-apps.yunohost.org/ci/badges/cypht.maintain.svg)
+[![Tingkat integrasi](https://apps.yunohost.org/badge/integration/cypht)](https://ci-apps.yunohost.org/ci/apps/cypht/)
+![Status kerja](https://apps.yunohost.org/badge/state/cypht)
+![Status pemeliharaan](https://apps.yunohost.org/badge/maintained/cypht)
 
 [![Pasang Cypht dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=cypht)
 
