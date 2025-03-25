@@ -5,7 +5,9 @@
 
 # Cypht для YunoHost
 
-[![Уровень интеграции](https://dash.yunohost.org/integration/cypht.svg)](https://ci-apps.yunohost.org/ci/apps/cypht/) ![Состояние работы](https://ci-apps.yunohost.org/ci/badges/cypht.status.svg) ![Состояние сопровождения](https://ci-apps.yunohost.org/ci/badges/cypht.maintain.svg)
+[![Уровень интеграции](https://apps.yunohost.org/badge/integration/cypht)](https://ci-apps.yunohost.org/ci/apps/cypht/)
+![Состояние работы](https://apps.yunohost.org/badge/state/cypht)
+![Состояние сопровождения](https://apps.yunohost.org/badge/maintained/cypht)
 
 [![Установите Cypht с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=cypht)
 
@@ -25,7 +27,7 @@ Cypht is an application built entirely of plugins, or as we call them, module se
 
 ## Снимки экрана
 
-![Снимок экрана Cypht](./doc/screenshots/cypht_shot1.png)
+![Снимок экрана Cypht](./doc/screenshots/screenshot.png)
 
 ## Документация и ресурсы
 

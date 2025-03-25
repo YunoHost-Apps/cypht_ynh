@@ -3,16 +3,19 @@
 source _common.sh
 source /usr/share/yunohost/helpers
 
+#=================================================
+# LOAD SETTINGS
+#=================================================
+
 timezone=$(cat /etc/timezone)
+ynh_app_setting_set --key=php_upload_max_filesize --value=50M
 
 #=================================================
 # CREATE A MYSQL DATABASE
 #=================================================
 
 ynh_mysql_db_shell <<< "CREATE TABLE hm_user_session (hm_id varchar(180), data longblob, date timestamp, primary key (hm_id));"
-
 ynh_mysql_db_shell <<< "CREATE TABLE hm_user (username varchar(250), hash varchar(250), primary key (username));"
-
 ynh_mysql_db_shell <<< "CREATE TABLE hm_user_settings(username varchar(250), settings longblob, primary key (username));"
 
 #=================================================
@@ -21,9 +24,6 @@ ynh_mysql_db_shell <<< "CREATE TABLE hm_user_settings(username varchar(250), set
 ynh_script_progression "Setting up source files..."
 
 ynh_setup_source --dest_dir="$install_dir"
-
-chmod -R o-rwx "$install_dir"
-chown -R $app:www-data "$install_dir"
 
 #=================================================
 # SYSTEM CONFIGURATION
@@ -40,7 +40,7 @@ ynh_config_add_nginx
 ynh_script_progression "Installing $app with Composer..."
 
 ynh_composer_install
-ynh_composer_exec install --no-dev  --ignore-platform-reqs
+ynh_composer_exec install --no-dev --ignore-platform-reqs
 
 #=================================================
 # ADD A CONFIGURATION
@@ -48,9 +48,6 @@ ynh_composer_exec install --no-dev  --ignore-platform-reqs
 ynh_script_progression "Adding $app's configuration..."
 
 ynh_config_add --template=".env" --destination="$install_dir/.env"
-
-chmod 400 "$install_dir/.env"
-chown $app:$app "$install_dir/.env"
 
 #=================================================
 # ADD AN ADMIN USER

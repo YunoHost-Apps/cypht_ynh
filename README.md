@@ -5,7 +5,9 @@ It shall NOT be edited by hand.
 
 # Cypht for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/cypht.svg)](https://ci-apps.yunohost.org/ci/apps/cypht/) ![Working status](https://ci-apps.yunohost.org/ci/badges/cypht.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/cypht.maintain.svg)
+[![Integration level](https://apps.yunohost.org/badge/integration/cypht)](https://ci-apps.yunohost.org/ci/apps/cypht/)
+![Working status](https://apps.yunohost.org/badge/state/cypht)
+![Maintenance status](https://apps.yunohost.org/badge/maintained/cypht)
 
 [![Install Cypht with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=cypht)
 
@@ -25,7 +27,7 @@ Cypht is an application built entirely of plugins, or as we call them, module se
 
 ## Screenshots
 
-![Screenshot of Cypht](./doc/screenshots/cypht_shot1.png)
+![Screenshot of Cypht](./doc/screenshots/screenshot.png)
 
 ## Documentation and resources
 

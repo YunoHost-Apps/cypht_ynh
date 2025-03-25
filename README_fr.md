@@ -5,7 +5,9 @@ Il NE doit PAS être modifié à la main.
 
 # Cypht pour YunoHost
 
-[![Niveau d’intégration](https://dash.yunohost.org/integration/cypht.svg)](https://ci-apps.yunohost.org/ci/apps/cypht/) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/cypht.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/cypht.maintain.svg)
+[![Niveau d’intégration](https://apps.yunohost.org/badge/integration/cypht)](https://ci-apps.yunohost.org/ci/apps/cypht/)
+![Statut du fonctionnement](https://apps.yunohost.org/badge/state/cypht)
+![Statut de maintenance](https://apps.yunohost.org/badge/maintained/cypht)
 
 [![Installer Cypht avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=cypht)
 
@@ -22,7 +24,7 @@ Cypht est un client de messagerie web. Vous pouvez accéder à vos comptes de me
 
 ## Captures d’écran
 
-![Capture d’écran de Cypht](./doc/screenshots/cypht_shot1.png)
+![Capture d’écran de Cypht](./doc/screenshots/screenshot.png)
 
 ## Documentations et ressources
 
