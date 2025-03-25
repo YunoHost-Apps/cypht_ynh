@@ -41,7 +41,7 @@ Cypht is an application built entirely of plugins, or as we call them, module se
 
 Bidali `pull request`a [`testing` abarrera](https://github.com/YunoHost-Apps/cypht_ynh/tree/testing).
 
-`testing` abarra probatzeko, ondorengoa egin:
+`testing` abarra probatzeko, honakoa egin:
 
 ```bash
 sudo yunohost app install https://github.com/YunoHost-Apps/cypht_ynh/tree/testing --debug
