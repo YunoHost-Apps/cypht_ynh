@@ -5,7 +5,7 @@ name = "Cypht"
 description.en = "Lightweight Open Source webmail"
 description.fr = "Webmail Open Source léger"
 
-version = "2.4.0~ynh1"
+version = "2.4.1~ynh1"
 
 maintainers = []
 
@@ -56,8 +56,8 @@ ram.runtime = "50M"
 [resources]
 
     [resources.sources.main]
-    url= "https://github.com/cypht-org/cypht/archive/refs/tags/v2.4.0.tar.gz"
-    sha256 = "0131c26a3be7f79e23a4b8aa1441ab07d4748d073baa977d76a9c692be73896b"
+    url= "https://github.com/cypht-org/cypht/archive/refs/tags/v2.4.1.tar.gz"
+    sha256 = "683c5142487ff1239657bc7271736296d514bcbc44b49d4e3a499308baae1efe"
     autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
@@ -72,7 +72,7 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "mariadb-server, redis-server, php8.3-mbstring, php8.3-gnupg, php8.3-memcached, php8.3-mysql, php8.3-gd, php8.3-curl, php8.3-fileinfo"
+    packages = "mariadb-server, redis-server, php8.4-mbstring, php8.4-gnupg, php8.4-memcached, php8.4-mysql, php8.4-gd, php8.4-curl, php8.4-fileinfo"
 
     [resources.database]
     type = "mysql"
