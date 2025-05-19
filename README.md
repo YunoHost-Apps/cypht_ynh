@@ -11,7 +11,7 @@ It shall NOT be edited by hand.
 Lightweight Open Source webmail
 
 [![🌐 Official app website](https://img.shields.io/badge/Official_app_website-darkgreen?style=for-the-badge)](https://cypht.org)
-[![Version: 2.4.1~ynh1](https://img.shields.io/badge/Version-2.4.1~ynh1-rgba(0,150,0,1)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/cypht/)
+[![Version: 2.4.2~ynh1](https://img.shields.io/badge/Version-2.4.2~ynh1-rgba(0,150,0,1)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/cypht/)
 
 <div align="center">
 <a href="https://apps.yunohost.org/app/cypht"><img height="100px" src="https://github.com/YunoHost/yunohost-artwork/raw/refs/heads/main/badges/neopossum-badges/badge_more_info_on_the_appstore.svg"/></a>
