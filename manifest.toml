@@ -2,8 +2,8 @@ packaging_format = 2
 
 id = "cypht"
 name = "Cypht"
-description.en = "Lightweight Open Source webmail"
-description.fr = "Webmail Open Source léger"
+description.en = "Web interface to check your mailbox"
+description.fr = "Interface web pour consulter votre boîte mail"
 
 version = "2.4.2~ynh1"
 
