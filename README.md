@@ -8,7 +8,7 @@ It shall NOT be edited by hand.
   Cypht, packaged for YunoHost
 </h1>
 
-Lightweight Open Source webmail
+Web interface to check your mailbox
 
 [![🌐 Official app website](https://img.shields.io/badge/Official_app_website-darkgreen?style=for-the-badge)](https://cypht.org)
 [![Version: 2.4.2~ynh1](https://img.shields.io/badge/Version-2.4.2~ynh1-rgb(18,138,11)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/cypht/)
