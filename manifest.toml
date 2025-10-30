@@ -5,7 +5,7 @@ name = "Cypht"
 description.en = "Web interface to check your mailbox"
 description.fr = "Interface web pour consulter votre boîte mail"
 
-version = "2.4.2~ynh1"
+version = "2.5.0~ynh1"
 
 maintainers = []
 
@@ -56,8 +56,8 @@ ram.runtime = "50M"
 [resources]
 
     [resources.sources.main]
-    url= "https://github.com/cypht-org/cypht/archive/refs/tags/v2.4.2.tar.gz"
-    sha256 = "1056079b6c5c77abe0fa865da39c1a28adb71dd0feb78e573d0d47d79dc07b0c"
+    url= "https://github.com/cypht-org/cypht/archive/refs/tags/v2.5.0.tar.gz"
+    sha256 = "ec4ba68a3fed0ed6cb8a1d1e70c45d9a2ec4abf15d1a01138daeb5137669c568"
     autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
