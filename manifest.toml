@@ -5,7 +5,7 @@ name = "Cypht"
 description.en = "Web interface to check your mailbox"
 description.fr = "Interface web pour consulter votre boîte mail"
 
-version = "2.9.0~ynh1"
+version = "2.9.0~ynh2"
 
 maintainers = []
 
@@ -72,7 +72,7 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "mariadb-server, redis-server, php8.4-mbstring, php8.4-gnupg, php8.4-memcached, php8.4-mysql, php8.4-gd, php8.4-curl, php8.4-fileinfo"
+    packages = "mariadb-server, redis-server, php8.4-mbstring, php8.4-gnupg, php8.4-memcached, php8.4-mysql, php8.4-gd, php8.4-curl, php8.4-fileinfo php8.4-xml php8.4-soap php8.4-ldap php8.4-redis"
 
     [resources.database]
     type = "mysql"
