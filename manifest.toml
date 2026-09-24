@@ -56,8 +56,8 @@ ram.runtime = "50M"
 [resources]
 
     [resources.sources.main]
-    url= "https://github.com/cypht-org/cypht/archive/refs/tags/v2.12.2.tar.gz"
-    sha256 = "edf8cf396b6dbcfbb52ad0645f9e42af95acfdaf3c779fedc48df0b6b15327cf"
+    url= "https://github.com/cypht-org/cypht/archive/98b3bb83e8214d5841202998b762567d2d757630.tar.gz"
+    sha256 = "312d3caa8ad930555b0c0c495bc77d2958700f7b2824b03bfc439fa412070a34"
     autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
