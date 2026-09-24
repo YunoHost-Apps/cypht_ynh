@@ -5,7 +5,7 @@ name = "Cypht"
 description.en = "Web interface to check your mailbox"
 description.fr = "Interface web pour consulter votre boîte mail"
 
-version = "2.12.2~ynh1"
+version = "2.12.2~ynh2"
 
 maintainers = []
 
